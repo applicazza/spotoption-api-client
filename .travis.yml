@@ -6,3 +6,10 @@ php:
 before_script:
     - flags="--prefer-dist"
     - composer install $flags
+
+script:
+  - mkdir -p build/logs
+  - vendor/bin/phpunit --coverage-clover build/logs/clover.xml
+
+after_success:
+  - sh -c 'php vendor/bin/coveralls -v'
