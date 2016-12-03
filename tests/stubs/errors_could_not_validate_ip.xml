@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<status><errors><error><message>CouldNotValidateIP</message><incomingIp>127.0.0.1</incomingIp></error></errors><errorsMessage><message>CouldNotValidateIP, 127.0.0.1</message></errorsMessage></status>
