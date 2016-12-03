@@ -2,3 +2,7 @@ language: php
 php:
   - '7.0'
   - nightly
+
+before_script:
+    - flags="--prefer-dist"
+    - composer install $flags
