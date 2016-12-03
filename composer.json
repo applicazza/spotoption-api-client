@@ -17,6 +17,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
+        "php": "^7.0",
         "guzzlehttp/guzzle": "^6.2",
         "spatie/laravel-fractal": "^2.0"
     },
