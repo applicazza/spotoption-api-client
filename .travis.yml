@@ -4,6 +4,7 @@ php:
   - nightly
 
 before_script:
+    - mkdir -p build/logs
     - flags="--prefer-dist"
     - composer install $flags
 
